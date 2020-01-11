@@ -1704,6 +1704,10 @@ Alternative Dockerfile name/path, relative to the source folder
 
 Don't use cache when building this project
 
+#### --nocompose-check
+
+Disable check for 'docker-compose.yml' file in parent source folder
+
 #### --registry-secrets, -R &#60;secrets.yml|.json&#62;
 
 Path to a local YAML or JSON file containing Docker registry passwords used to pull base images.
@@ -1866,6 +1870,10 @@ Alternative Dockerfile name/path, relative to the source folder
 
 Display full log output
 
+#### --nocompose-check
+
+Disable check for 'docker-compose.yml' file in parent source folder
+
 #### --registry-secrets, -R &#60;secrets.yml|.json&#62;
 
 Path to a YAML or JSON file with passwords for a private Docker registry
@@ -1990,6 +1998,10 @@ Alternative Dockerfile name/path, relative to the source folder
 #### --logs
 
 Display full log output
+
+#### --nocompose-check
+
+Disable check for 'docker-compose.yml' file in parent source folder
 
 #### --registry-secrets, -R &#60;secrets.yml|.json&#62;
 

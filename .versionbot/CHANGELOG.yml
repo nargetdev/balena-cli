@@ -1,4 +1,37 @@
 - commits:
+    - subject: Add Windows-specific hint to 'balena scan' output
+      hash: 3c67af7f984eca5aea0331802d8b9de7b9cc96bd
+      body: >
+        An extra Windows-specific message is now appended to the 'Could not find
+        any balenaOS devices' message - if the OS is Windows.
+
+
+        Also updated the INSTALL instructions with details of the dependency on
+        Bonjour.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+    - subject: Add Windows-specific hint to 'balena scan' output
+      hash: 9389dd29d268a532452fdeeeb0efd010d611465c
+      body: >
+        An extra Windows-specific message is now appended to the 'Could not find
+        any balenaOS devices' message - if the OS is Windows.
+
+
+        Also updated the INSTALL instructions with details of the dependency on
+        Bonjour.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+  version: 11.21.5
+  date: 2020-01-15T01:33:42.831Z
+- commits:
     - subject: Fix 'balena join' when the user is not logged in
       hash: 95561864a64b0a03cc7a94cfe63a038730141026
       body: ''

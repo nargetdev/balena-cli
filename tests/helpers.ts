@@ -98,3 +98,12 @@ export function cleanOutput(output: string[] | string) {
 		.compact()
 		.value();
 }
+
+/**
+ * Remove text colors (ASCII escape sequences). Example:
+ * Input: '\u001b[2K\r\u001b[34m[Build]\u001b[39m   \u001b[1mmain\u001b[22m Image size: 1.14 MB'
+ * Output: '[Build]   main Image size: 1.14 MB'
+ */
+export function monochrome(text: string): string {
+	return text.replace(/\u001b\[\??\d+?[a-zA-Z]\r?/g, '');
+}

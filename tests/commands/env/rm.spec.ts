@@ -25,8 +25,8 @@ describe('balena env rm', function() {
 
 	beforeEach(() => {
 		api = new BalenaAPIMock();
-		api.expectWhoAmI(true);
-		api.expectMixpanel();
+		api.expectGetWhoAmI({ optional: true, persist: true });
+		api.expectGetMixpanel({ optional: true });
 	});
 
 	afterEach(() => {

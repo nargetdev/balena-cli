@@ -32,8 +32,8 @@ describe('balena device move', function() {
 	});
 
 	it('should print help text with the -h flag', async () => {
-		api.expectWhoAmI();
-		api.expectMixpanel();
+		api.expectGetWhoAmI({ optional: true });
+		api.expectGetMixpanel({ optional: true });
 
 		const { out, err } = await runCommand('device move -h');
 
@@ -45,8 +45,8 @@ describe('balena device move', function() {
 	it.skip('should error if uuid not provided', async () => {
 		// TODO: Figure out how to test for expected errors with current setup
 		//  including exit codes if possible.
-		api.expectWhoAmI();
-		api.expectMixpanel();
+		api.expectGetWhoAmI({ optional: true });
+		api.expectGetMixpanel({ optional: true });
 
 		const { out, err } = await runCommand('device move');
 		const errLines = cleanOutput(err);

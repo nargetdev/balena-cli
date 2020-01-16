@@ -123,7 +123,7 @@ export function setMaxListeners(maxListeners: number) {
 }
 
 export function globalInit() {
-	setupRaven();
+	// setupRaven();
 	checkNodeVersion();
 	configureBluebird();
 	setupGlobalHttpProxy();

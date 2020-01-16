@@ -1,4 +1,36 @@
 - commits:
+    - subject: Add project directory validation for balena push / build / deploy
+      hash: 432a1981c4e25c5eb36fd5a0be01026930741c43
+      body: ''
+      footer:
+        Connects-to: '#1421'
+        connects-to: '#1421'
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Paulo Castro <paulo@balena.io>
+        signed-off-by: Paulo Castro <paulo@balena.io>
+      author: Paulo Castro
+    - subject: Refactor 'balena push' error handling
+      hash: 45081d236d1c5820b3835599cacdc43239640899
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Paulo Castro <paulo@balena.io>
+        signed-off-by: Paulo Castro <paulo@balena.io>
+      author: Paulo Castro
+    - subject: Add tests for 'balena build' command
+      hash: 8293177df501cf5a6238eafba46004505538128a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Paulo Castro <paulo@balena.io>
+        signed-off-by: Paulo Castro <paulo@balena.io>
+      author: Paulo Castro
+  version: 11.21.6
+  date: 2020-01-16T02:07:03.642Z
+- commits:
     - subject: >-
         Change the balena app action to present the slug instead of the
         git_repository

@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add tests for 'balena build' command
+      hash: 59fa83a6964a54adeba71a9e3b012996fc5cf3be
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Paulo Castro <paulo@balena.io>
+        signed-off-by: Paulo Castro <paulo@balena.io>
+      author: Paulo Castro
+  version: 11.21.6
+  date: 2020-01-17T01:57:33.372Z
+- commits:
     - subject: >-
         Change the balena app action to present the slug instead of the
         git_repository
